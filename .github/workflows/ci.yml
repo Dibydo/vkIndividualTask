@@ -1,0 +1,16 @@
+name: 'individual task ci'
+on: push
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: 'install'
+      run: |
+      cd build/ && cmake .. && make
+
+    - name: 'test'
+      run: |
+      cd build/ && ctest

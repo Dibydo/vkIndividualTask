@@ -1,0 +1,6 @@
+digit 29 0.000110466
+feederOk 3 0.00106072
+feederWrong 6 0.000843727
+feeder_ok 24 0.000112907
+feeder_wrong 17 0.000223996
+---

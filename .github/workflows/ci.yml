@@ -102,7 +102,7 @@ jobs:
           pwd
       - name: run gtest
         run: |
-          cd build/
+          mkdir -p build && cd build
           cmake ..
           make
           ctest

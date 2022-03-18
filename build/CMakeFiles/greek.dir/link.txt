@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/greek.dir/src/greek.c.o CMakeFiles/greek.dir/src/main.c.o  -o greek 

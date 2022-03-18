@@ -1,5 +1,5 @@
 # vkIndividualTask1
-[![GitHub Actions](https://github.com/Dibydo/vkIndividualTask1/blob/homework/.github/workflows/ci.yml/badge.svg)](https://github.com/Dibydo/vkIndividualTask1/blob/homework/.github/workflows/ci.yml)
+![workflow](https://github.com/Dibydo/vkIndividualTask1/actions/workflows/ci.yml/badge.svg)
 
 ### Вариант #47
 Составить программу перевода массива символов {I, V, X, L, C, D, M} с завершающим нулем, определяющего запись натурального числа римскими цифрами, в исходное целое.\

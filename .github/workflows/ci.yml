@@ -24,10 +24,6 @@ jobs:
         run: |
           sudo apt-get update && sudo pip install cpplint
           which cpplint
-  
-      - name: check location
-        run: |
-          pwd && ls
 
   building:
     runs-on: ubuntu-latest

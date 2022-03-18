@@ -25,15 +25,7 @@ jobs:
           sudo apt-get update && sudo pip install cpplint
           which cpplint
 
-      - name: cpplint check
-        run: |
-          mkdir -p build && cd build
-          sudo cmake -DENABLE_CPPLINT=ON ..
-          sudo make
-          sudo make cpplint
-          cd ../
-
-      - name: CPP CHECK
+      - name: cpp check
         run: |
           mkdir -p build && cd build
           sudo cmake -DENABLE_CPPCHECK=ON ..

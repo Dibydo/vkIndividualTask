@@ -24,18 +24,10 @@ jobs:
         run: |
           sudo apt-get update && sudo pip install cpplint
           which cpplint
-
-      - name: cpp check
+  
+      - name: check location
         run: |
-          mkdir -p build && cd build
-          sudo cmake -DENABLE_CPPCHECK=ON ..
-          sudo make
-          sudo make check
-          cd ../build
-          sudo cmake -DENABLE_CPPCHECK=ON ..
-          sudo make
-          sudo make check
-          cd ../
+          pwd && ls
 
   building:
     runs-on: ubuntu-latest

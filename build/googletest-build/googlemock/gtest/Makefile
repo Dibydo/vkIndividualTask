@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dibydo/Desktop/IndTask
+CMAKE_SOURCE_DIR = /home/dibydo/Desktop/bbb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dibydo/Desktop/IndTask/build
+CMAKE_BINARY_DIR = /home/dibydo/Desktop/bbb/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dibydo/Desktop/IndTask/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dibydo/Desktop/IndTask/build/CMakeFiles /home/dibydo/Desktop/IndTask/build/googletest-build/googlemock/gtest/CMakeFiles/progress.marks
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dibydo/Desktop/IndTask/build/CMakeFiles 0
+	cd /home/dibydo/Desktop/bbb/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dibydo/Desktop/bbb/build/CMakeFiles /home/dibydo/Desktop/bbb/build/googletest-build/googlemock/gtest/CMakeFiles/progress.marks
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dibydo/Desktop/bbb/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/clean
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/preinstall
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/preinstall
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dibydo/Desktop/IndTask/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dibydo/Desktop/bbb/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/rule:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
 .PHONY : googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ gtest_main: googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
 
 # fast build rule for target.
 gtest_main/fast:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
 # Convenience name for target.
 googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/rule:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/rule
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/rule
 .PHONY : googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ gtest: googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/rule
 
 # fast build rule for target.
 gtest/fast:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 src/gtest-all.o: src/gtest-all.cc.o
@@ -203,7 +203,7 @@ src/gtest-all.o: src/gtest-all.cc.o
 
 # target to build an object file
 src/gtest-all.cc.o:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 .PHONY : src/gtest-all.cc.o
 
 src/gtest-all.i: src/gtest-all.cc.i
@@ -212,7 +212,7 @@ src/gtest-all.i: src/gtest-all.cc.i
 
 # target to preprocess a source file
 src/gtest-all.cc.i:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i
 .PHONY : src/gtest-all.cc.i
 
 src/gtest-all.s: src/gtest-all.cc.s
@@ -221,7 +221,7 @@ src/gtest-all.s: src/gtest-all.cc.s
 
 # target to generate assembly for a file
 src/gtest-all.cc.s:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s
 .PHONY : src/gtest-all.cc.s
 
 src/gtest_main.o: src/gtest_main.cc.o
@@ -230,7 +230,7 @@ src/gtest_main.o: src/gtest_main.cc.o
 
 # target to build an object file
 src/gtest_main.cc.o:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 .PHONY : src/gtest_main.cc.o
 
 src/gtest_main.i: src/gtest_main.cc.i
@@ -239,7 +239,7 @@ src/gtest_main.i: src/gtest_main.cc.i
 
 # target to preprocess a source file
 src/gtest_main.cc.i:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 .PHONY : src/gtest_main.cc.i
 
 src/gtest_main.s: src/gtest_main.cc.s
@@ -248,7 +248,7 @@ src/gtest_main.s: src/gtest_main.cc.s
 
 # target to generate assembly for a file
 src/gtest_main.cc.s:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 .PHONY : src/gtest_main.cc.s
 
 # Help Target
@@ -283,6 +283,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dibydo/Desktop/IndTask/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dibydo/Desktop/bbb/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "googletest-build/googlemock/gtest/libgtest_maind.a"
+			"path" : "googletest-build/googlemock/libgmock.a"
 		}
 	],
 	"backtrace" : 3,
@@ -22,7 +22,7 @@
 		"files" : 
 		[
 			"build/googletest-src/googletest/cmake/internal_utils.cmake",
-			"build/googletest-src/googletest/CMakeLists.txt"
+			"build/googletest-src/googlemock/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -32,7 +32,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 134,
+				"line" : 110,
 				"parent" : 0
 			},
 			{
@@ -50,7 +50,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 151,
+				"line" : 130,
 				"parent" : 0
 			},
 			{
@@ -62,7 +62,7 @@
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 146,
+				"line" : 111,
 				"parent" : 0
 			},
 			{
@@ -74,7 +74,7 @@
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 111,
+				"line" : 76,
 				"parent" : 0
 			}
 		]
@@ -85,10 +85,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
+					"fragment" : " "
 				},
 				{
-					"fragment" : " -DGTEST_HAS_PTHREAD=1  "
+					"fragment" : "-Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"
 				},
 				{
 					"backtrace" : 7,
@@ -99,13 +99,21 @@
 			[
 				{
 					"backtrace" : 8,
-					"isSystem" : true,
-					"path" : "/home/dibydo/Desktop/IndTask/build/googletest-src/googletest/include"
+					"path" : "/home/dibydo/Desktop/bbb/build/googletest-src/googlemock/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/dibydo/Desktop/bbb/build/googletest-src/googlemock"
 				},
 				{
 					"backtrace" : 8,
 					"isSystem" : true,
-					"path" : "/home/dibydo/Desktop/IndTask/build/googletest-src/googletest"
+					"path" : "/home/dibydo/Desktop/bbb/build/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/home/dibydo/Desktop/bbb/build/googletest-src/googletest"
 				}
 			],
 			"language" : "CXX",
@@ -122,7 +130,7 @@
 			"id" : "gtest::@83a5626b75b854e64391"
 		}
 	],
-	"id" : "gtest_main::@83a5626b75b854e64391",
+	"id" : "gmock::@645c719b6bb61ab77cfe",
 	"install" : 
 	{
 		"destinations" : 
@@ -137,12 +145,12 @@
 			"path" : "/usr/local"
 		}
 	},
-	"name" : "gtest_main",
-	"nameOnDisk" : "libgtest_maind.a",
+	"name" : "gmock",
+	"nameOnDisk" : "libgmock.a",
 	"paths" : 
 	{
-		"build" : "googletest-build/googlemock/gtest",
-		"source" : "build/googletest-src/googletest"
+		"build" : "googletest-build/googlemock",
+		"source" : "build/googletest-src/googlemock"
 	},
 	"sourceGroups" : 
 	[
@@ -159,7 +167,7 @@
 		{
 			"backtrace" : 3,
 			"compileGroupIndex" : 0,
-			"path" : "build/googletest-src/googletest/src/gtest_main.cc",
+			"path" : "build/googletest-src/googlemock/src/gmock-all.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

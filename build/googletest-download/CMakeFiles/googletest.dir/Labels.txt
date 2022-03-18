@@ -1,14 +1,14 @@
 # Target labels
  googletest
 # Source files and their labels
-/home/dibydo/Desktop/IndTask/build/googletest-download/CMakeFiles/googletest
-/home/dibydo/Desktop/IndTask/build/googletest-download/CMakeFiles/googletest.rule
-/home/dibydo/Desktop/IndTask/build/googletest-download/CMakeFiles/googletest-complete.rule
-/home/dibydo/Desktop/IndTask/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule
-/home/dibydo/Desktop/IndTask/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
-/home/dibydo/Desktop/IndTask/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule
-/home/dibydo/Desktop/IndTask/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule
-/home/dibydo/Desktop/IndTask/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule
-/home/dibydo/Desktop/IndTask/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule
-/home/dibydo/Desktop/IndTask/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule
-/home/dibydo/Desktop/IndTask/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule
+/home/dibydo/Desktop/bbb/build/googletest-download/CMakeFiles/googletest
+/home/dibydo/Desktop/bbb/build/googletest-download/CMakeFiles/googletest.rule
+/home/dibydo/Desktop/bbb/build/googletest-download/CMakeFiles/googletest-complete.rule
+/home/dibydo/Desktop/bbb/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/home/dibydo/Desktop/bbb/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/home/dibydo/Desktop/bbb/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/home/dibydo/Desktop/bbb/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule
+/home/dibydo/Desktop/bbb/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/home/dibydo/Desktop/bbb/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/home/dibydo/Desktop/bbb/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/home/dibydo/Desktop/bbb/build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule

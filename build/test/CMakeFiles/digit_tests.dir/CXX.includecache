@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/dibydo/Desktop/IndTask/include/indTask/greek.h
+/home/dibydo/Desktop/bbb/include/indTask/greek.h
 
-/home/dibydo/Desktop/IndTask/test/digit.cpp
+/home/dibydo/Desktop/bbb/test/digit.cpp
 gtest/gtest.h
-/home/dibydo/Desktop/IndTask/test/gtest/gtest.h
+/home/dibydo/Desktop/bbb/test/gtest/gtest.h
 ../include/indTask/greek.h
-/home/dibydo/Desktop/IndTask/include/indTask/greek.h
+/home/dibydo/Desktop/bbb/include/indTask/greek.h
+
+/home/dibydo/Desktop/bbb/test/main.cpp
+gtest/gtest.h
+-
 
 googletest-src/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

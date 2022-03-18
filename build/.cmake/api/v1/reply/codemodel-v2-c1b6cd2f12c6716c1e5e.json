@@ -91,7 +91,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -161,56 +161,56 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "digit_tests::@36f028580bb02cc8272a",
-					"jsonFile" : "target-digit_tests-Debug-90805fbfc4f361861cf3.json",
+					"jsonFile" : "target-digit_tests-8a4ce8acee3d88cffb41.json",
 					"name" : "digit_tests",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "feeder_ok_tests::@36f028580bb02cc8272a",
-					"jsonFile" : "target-feeder_ok_tests-Debug-564eb418f63af9a7dede.json",
+					"jsonFile" : "target-feeder_ok_tests-9523cbaab52c5475a6fe.json",
 					"name" : "feeder_ok_tests",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "feeder_wrong_tests::@36f028580bb02cc8272a",
-					"jsonFile" : "target-feeder_wrong_tests-Debug-3d488ad0a2f5df00929e.json",
+					"jsonFile" : "target-feeder_wrong_tests-dbc137966e7cbda95c6d.json",
 					"name" : "feeder_wrong_tests",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "gmock::@645c719b6bb61ab77cfe",
-					"jsonFile" : "target-gmock-Debug-7b8bdd15425571a75866.json",
+					"jsonFile" : "target-gmock-d38cc86606995cfbb2f1.json",
 					"name" : "gmock",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "gmock_main::@645c719b6bb61ab77cfe",
-					"jsonFile" : "target-gmock_main-Debug-f570cd75ab40ab26e733.json",
+					"jsonFile" : "target-gmock_main-0fb8490241f26dab87a2.json",
 					"name" : "gmock_main",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "greek::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-greek-Debug-0cd5470f8bc01e0d517d.json",
+					"jsonFile" : "target-greek-53e3e1ffbb6114eba51f.json",
 					"name" : "greek",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "gtest::@83a5626b75b854e64391",
-					"jsonFile" : "target-gtest-Debug-566e36d953a3c5118ba0.json",
+					"jsonFile" : "target-gtest-a2400e157e0899aca069.json",
 					"name" : "gtest",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "gtest_main::@83a5626b75b854e64391",
-					"jsonFile" : "target-gtest_main-Debug-fa25a65d8a33bbdbf49f.json",
+					"jsonFile" : "target-gtest_main-cad8dbf95a6204549c9b.json",
 					"name" : "gtest_main",
 					"projectIndex" : 3
 				}
@@ -220,8 +220,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/dibydo/Desktop/IndTask/build",
-		"source" : "/home/dibydo/Desktop/IndTask"
+		"build" : "/home/dibydo/Desktop/bbb/build",
+		"source" : "/home/dibydo/Desktop/bbb"
 	},
 	"version" : 
 	{

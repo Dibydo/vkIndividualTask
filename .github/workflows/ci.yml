@@ -100,3 +100,9 @@ jobs:
           sudo make install
           cd ../../
           pwd
+      - name: run gtest
+        run: |
+          cd build/
+          cmake ..
+          make
+          ctest

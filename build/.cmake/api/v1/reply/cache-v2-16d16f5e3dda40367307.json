@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/addr2line"
+			"value" : "/usr/bin/addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/ar"
+			"value" : "/usr/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -51,11 +51,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/dibydo/Desktop/IndTask/build"
+			"value" : "/home/dibydo/Desktop/bbb/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -167,11 +167,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/clang++-10"
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -183,11 +183,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "LLVM archiver"
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/lib/llvm-10/bin/llvm-ar"
+			"value" : "/usr/bin/gcc-ar-9"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -199,11 +199,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Generate index for LLVM archive"
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/lib/llvm-10/bin/llvm-ranlib"
+			"value" : "/usr/bin/gcc-ranlib-9"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -295,11 +295,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/clang-10"
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -311,11 +311,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "LLVM archiver"
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/lib/llvm-10/bin/llvm-ar"
+			"value" : "/usr/bin/gcc-ar-9"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -327,11 +327,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Generate index for LLVM archive"
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/lib/llvm-10/bin/llvm-ranlib"
+			"value" : "/usr/bin/gcc-ranlib-9"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -531,11 +531,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Enable/Disable output of compile commands during generation."
 				}
 			],
 			"type" : "BOOL",
-			"value" : "TRUE"
+			"value" : "OFF"
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/dibydo/Desktop/IndTask"
+			"value" : "/home/dibydo/Desktop/bbb"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -927,7 +927,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/ld"
+			"value" : "/usr/bin/ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/nm"
+			"value" : "/usr/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1067,7 +1067,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/objcopy"
+			"value" : "/usr/bin/objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1083,7 +1083,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/objdump"
+			"value" : "/usr/bin/objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1207,7 +1207,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/ranlib"
+			"value" : "/usr/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1223,7 +1223,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/readelf"
+			"value" : "/usr/bin/readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1443,7 +1443,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/strip"
+			"value" : "/usr/bin/strip"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1559,7 +1559,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/dibydo/Desktop/IndTask/build/googletest-build/googlemock/gtest/generated"
+			"value" : "/home/dibydo/Desktop/bbb/build/googletest-build/googlemock/gtest/generated"
 		},
 		{
 			"name" : "gmock_BINARY_DIR",
@@ -1571,7 +1571,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dibydo/Desktop/IndTask/build/googletest-build/googlemock"
+			"value" : "/home/dibydo/Desktop/bbb/build/googletest-build/googlemock"
 		},
 		{
 			"name" : "gmock_LIB_DEPENDS",
@@ -1595,7 +1595,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dibydo/Desktop/IndTask/build/googletest-src/googlemock"
+			"value" : "/home/dibydo/Desktop/bbb/build/googletest-src/googlemock"
 		},
 		{
 			"name" : "gmock_build_tests",
@@ -1635,7 +1635,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dibydo/Desktop/IndTask/build/googletest-build"
+			"value" : "/home/dibydo/Desktop/bbb/build/googletest-build"
 		},
 		{
 			"name" : "googletest-distribution_SOURCE_DIR",
@@ -1647,7 +1647,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dibydo/Desktop/IndTask/build/googletest-src"
+			"value" : "/home/dibydo/Desktop/bbb/build/googletest-src"
 		},
 		{
 			"name" : "greek_BINARY_DIR",
@@ -1659,7 +1659,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dibydo/Desktop/IndTask/build"
+			"value" : "/home/dibydo/Desktop/bbb/build"
 		},
 		{
 			"name" : "greek_SOURCE_DIR",
@@ -1671,7 +1671,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dibydo/Desktop/IndTask"
+			"value" : "/home/dibydo/Desktop/bbb"
 		},
 		{
 			"name" : "gtest_BINARY_DIR",
@@ -1683,7 +1683,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dibydo/Desktop/IndTask/build/googletest-build/googlemock/gtest"
+			"value" : "/home/dibydo/Desktop/bbb/build/googletest-build/googlemock/gtest"
 		},
 		{
 			"name" : "gtest_SOURCE_DIR",
@@ -1695,7 +1695,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/dibydo/Desktop/IndTask/build/googletest-src/googletest"
+			"value" : "/home/dibydo/Desktop/bbb/build/googletest-src/googletest"
 		},
 		{
 			"name" : "gtest_build_samples",

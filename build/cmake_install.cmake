@@ -1,4 +1,4 @@
-# Install script for directory: /home/dibydo/Desktop/IndTask
+# Install script for directory: /home/dibydo/Desktop/bbb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dibydo/Desktop/IndTask/build/googletest-build/cmake_install.cmake")
-  include("/home/dibydo/Desktop/IndTask/build/test/cmake_install.cmake")
+  include("/home/dibydo/Desktop/bbb/build/googletest-build/cmake_install.cmake")
+  include("/home/dibydo/Desktop/bbb/build/test/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dibydo/Desktop/IndTask/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dibydo/Desktop/bbb/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

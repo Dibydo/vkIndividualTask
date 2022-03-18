@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dibydo/Desktop/IndTask
+CMAKE_SOURCE_DIR = /home/dibydo/Desktop/bbb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dibydo/Desktop/IndTask/build
+CMAKE_BINARY_DIR = /home/dibydo/Desktop/bbb/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/digit_tests.dir/depend.make
@@ -59,42 +59,42 @@ include test/CMakeFiles/digit_tests.dir/flags.make
 
 test/CMakeFiles/digit_tests.dir/__/src/greek.c.o: test/CMakeFiles/digit_tests.dir/flags.make
 test/CMakeFiles/digit_tests.dir/__/src/greek.c.o: ../src/greek.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dibydo/Desktop/IndTask/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test/CMakeFiles/digit_tests.dir/__/src/greek.c.o"
-	cd /home/dibydo/Desktop/IndTask/build/test && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/digit_tests.dir/__/src/greek.c.o   -c /home/dibydo/Desktop/IndTask/src/greek.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dibydo/Desktop/bbb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test/CMakeFiles/digit_tests.dir/__/src/greek.c.o"
+	cd /home/dibydo/Desktop/bbb/build/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/digit_tests.dir/__/src/greek.c.o   -c /home/dibydo/Desktop/bbb/src/greek.c
 
 test/CMakeFiles/digit_tests.dir/__/src/greek.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/digit_tests.dir/__/src/greek.c.i"
-	cd /home/dibydo/Desktop/IndTask/build/test && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dibydo/Desktop/IndTask/src/greek.c > CMakeFiles/digit_tests.dir/__/src/greek.c.i
+	cd /home/dibydo/Desktop/bbb/build/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dibydo/Desktop/bbb/src/greek.c > CMakeFiles/digit_tests.dir/__/src/greek.c.i
 
 test/CMakeFiles/digit_tests.dir/__/src/greek.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/digit_tests.dir/__/src/greek.c.s"
-	cd /home/dibydo/Desktop/IndTask/build/test && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dibydo/Desktop/IndTask/src/greek.c -o CMakeFiles/digit_tests.dir/__/src/greek.c.s
+	cd /home/dibydo/Desktop/bbb/build/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dibydo/Desktop/bbb/src/greek.c -o CMakeFiles/digit_tests.dir/__/src/greek.c.s
 
 test/CMakeFiles/digit_tests.dir/digit.cpp.o: test/CMakeFiles/digit_tests.dir/flags.make
 test/CMakeFiles/digit_tests.dir/digit.cpp.o: ../test/digit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dibydo/Desktop/IndTask/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/digit_tests.dir/digit.cpp.o"
-	cd /home/dibydo/Desktop/IndTask/build/test && /bin/clang++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/digit_tests.dir/digit.cpp.o -c /home/dibydo/Desktop/IndTask/test/digit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dibydo/Desktop/bbb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/digit_tests.dir/digit.cpp.o"
+	cd /home/dibydo/Desktop/bbb/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/digit_tests.dir/digit.cpp.o -c /home/dibydo/Desktop/bbb/test/digit.cpp
 
 test/CMakeFiles/digit_tests.dir/digit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/digit_tests.dir/digit.cpp.i"
-	cd /home/dibydo/Desktop/IndTask/build/test && /bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dibydo/Desktop/IndTask/test/digit.cpp > CMakeFiles/digit_tests.dir/digit.cpp.i
+	cd /home/dibydo/Desktop/bbb/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dibydo/Desktop/bbb/test/digit.cpp > CMakeFiles/digit_tests.dir/digit.cpp.i
 
 test/CMakeFiles/digit_tests.dir/digit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/digit_tests.dir/digit.cpp.s"
-	cd /home/dibydo/Desktop/IndTask/build/test && /bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dibydo/Desktop/IndTask/test/digit.cpp -o CMakeFiles/digit_tests.dir/digit.cpp.s
+	cd /home/dibydo/Desktop/bbb/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dibydo/Desktop/bbb/test/digit.cpp -o CMakeFiles/digit_tests.dir/digit.cpp.s
 
 test/CMakeFiles/digit_tests.dir/main.cpp.o: test/CMakeFiles/digit_tests.dir/flags.make
 test/CMakeFiles/digit_tests.dir/main.cpp.o: ../test/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dibydo/Desktop/IndTask/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/digit_tests.dir/main.cpp.o"
-	cd /home/dibydo/Desktop/IndTask/build/test && /bin/clang++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/digit_tests.dir/main.cpp.o -c /home/dibydo/Desktop/IndTask/test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dibydo/Desktop/bbb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/digit_tests.dir/main.cpp.o"
+	cd /home/dibydo/Desktop/bbb/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/digit_tests.dir/main.cpp.o -c /home/dibydo/Desktop/bbb/test/main.cpp
 
 test/CMakeFiles/digit_tests.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/digit_tests.dir/main.cpp.i"
-	cd /home/dibydo/Desktop/IndTask/build/test && /bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dibydo/Desktop/IndTask/test/main.cpp > CMakeFiles/digit_tests.dir/main.cpp.i
+	cd /home/dibydo/Desktop/bbb/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dibydo/Desktop/bbb/test/main.cpp > CMakeFiles/digit_tests.dir/main.cpp.i
 
 test/CMakeFiles/digit_tests.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/digit_tests.dir/main.cpp.s"
-	cd /home/dibydo/Desktop/IndTask/build/test && /bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dibydo/Desktop/IndTask/test/main.cpp -o CMakeFiles/digit_tests.dir/main.cpp.s
+	cd /home/dibydo/Desktop/bbb/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dibydo/Desktop/bbb/test/main.cpp -o CMakeFiles/digit_tests.dir/main.cpp.s
 
 # Object files for target digit_tests
 digit_tests_OBJECTS = \
@@ -109,11 +109,11 @@ test/digit_tests: test/CMakeFiles/digit_tests.dir/__/src/greek.c.o
 test/digit_tests: test/CMakeFiles/digit_tests.dir/digit.cpp.o
 test/digit_tests: test/CMakeFiles/digit_tests.dir/main.cpp.o
 test/digit_tests: test/CMakeFiles/digit_tests.dir/build.make
-test/digit_tests: googletest-build/googlemock/gtest/libgtest_maind.a
-test/digit_tests: googletest-build/googlemock/gtest/libgtestd.a
+test/digit_tests: googletest-build/googlemock/gtest/libgtest_main.a
+test/digit_tests: googletest-build/googlemock/gtest/libgtest.a
 test/digit_tests: test/CMakeFiles/digit_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dibydo/Desktop/IndTask/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable digit_tests"
-	cd /home/dibydo/Desktop/IndTask/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/digit_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dibydo/Desktop/bbb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable digit_tests"
+	cd /home/dibydo/Desktop/bbb/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/digit_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/digit_tests.dir/build: test/digit_tests
@@ -121,10 +121,10 @@ test/CMakeFiles/digit_tests.dir/build: test/digit_tests
 .PHONY : test/CMakeFiles/digit_tests.dir/build
 
 test/CMakeFiles/digit_tests.dir/clean:
-	cd /home/dibydo/Desktop/IndTask/build/test && $(CMAKE_COMMAND) -P CMakeFiles/digit_tests.dir/cmake_clean.cmake
+	cd /home/dibydo/Desktop/bbb/build/test && $(CMAKE_COMMAND) -P CMakeFiles/digit_tests.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/digit_tests.dir/clean
 
 test/CMakeFiles/digit_tests.dir/depend:
-	cd /home/dibydo/Desktop/IndTask/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dibydo/Desktop/IndTask /home/dibydo/Desktop/IndTask/test /home/dibydo/Desktop/IndTask/build /home/dibydo/Desktop/IndTask/build/test /home/dibydo/Desktop/IndTask/build/test/CMakeFiles/digit_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dibydo/Desktop/bbb/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dibydo/Desktop/bbb /home/dibydo/Desktop/bbb/test /home/dibydo/Desktop/bbb/build /home/dibydo/Desktop/bbb/build/test /home/dibydo/Desktop/bbb/build/test/CMakeFiles/digit_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/digit_tests.dir/depend
 

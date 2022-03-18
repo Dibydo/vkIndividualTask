@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dibydo/Desktop/IndTask
+CMAKE_SOURCE_DIR = /home/dibydo/Desktop/bbb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dibydo/Desktop/IndTask/build
+CMAKE_BINARY_DIR = /home/dibydo/Desktop/bbb/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dibydo/Desktop/IndTask/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dibydo/Desktop/IndTask/build/CMakeFiles /home/dibydo/Desktop/IndTask/build/test/CMakeFiles/progress.marks
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dibydo/Desktop/IndTask/build/CMakeFiles 0
+	cd /home/dibydo/Desktop/bbb/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dibydo/Desktop/bbb/build/CMakeFiles /home/dibydo/Desktop/bbb/build/test/CMakeFiles/progress.marks
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dibydo/Desktop/bbb/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dibydo/Desktop/IndTask/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dibydo/Desktop/bbb/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/feeder_wrong_tests.dir/rule:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/feeder_wrong_tests.dir/rule
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/feeder_wrong_tests.dir/rule
 .PHONY : test/CMakeFiles/feeder_wrong_tests.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ feeder_wrong_tests: test/CMakeFiles/feeder_wrong_tests.dir/rule
 
 # fast build rule for target.
 feeder_wrong_tests/fast:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/build
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/build
 .PHONY : feeder_wrong_tests/fast
 
 # Convenience name for target.
 test/CMakeFiles/feeder_ok_tests.dir/rule:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/feeder_ok_tests.dir/rule
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/feeder_ok_tests.dir/rule
 .PHONY : test/CMakeFiles/feeder_ok_tests.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ feeder_ok_tests: test/CMakeFiles/feeder_ok_tests.dir/rule
 
 # fast build rule for target.
 feeder_ok_tests/fast:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/build
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/build
 .PHONY : feeder_ok_tests/fast
 
 # Convenience name for target.
 test/CMakeFiles/digit_tests.dir/rule:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/digit_tests.dir/rule
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/digit_tests.dir/rule
 .PHONY : test/CMakeFiles/digit_tests.dir/rule
 
 # Convenience name for target.
@@ -209,7 +209,7 @@ digit_tests: test/CMakeFiles/digit_tests.dir/rule
 
 # fast build rule for target.
 digit_tests/fast:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/build
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/build
 .PHONY : digit_tests/fast
 
 __/src/greek.o: __/src/greek.c.o
@@ -218,9 +218,9 @@ __/src/greek.o: __/src/greek.c.o
 
 # target to build an object file
 __/src/greek.c.o:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/__/src/greek.c.o
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/__/src/greek.c.o
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/__/src/greek.c.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/__/src/greek.c.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/__/src/greek.c.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/__/src/greek.c.o
 .PHONY : __/src/greek.c.o
 
 __/src/greek.i: __/src/greek.c.i
@@ -229,9 +229,9 @@ __/src/greek.i: __/src/greek.c.i
 
 # target to preprocess a source file
 __/src/greek.c.i:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/__/src/greek.c.i
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/__/src/greek.c.i
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/__/src/greek.c.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/__/src/greek.c.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/__/src/greek.c.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/__/src/greek.c.i
 .PHONY : __/src/greek.c.i
 
 __/src/greek.s: __/src/greek.c.s
@@ -240,9 +240,9 @@ __/src/greek.s: __/src/greek.c.s
 
 # target to generate assembly for a file
 __/src/greek.c.s:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/__/src/greek.c.s
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/__/src/greek.c.s
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/__/src/greek.c.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/__/src/greek.c.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/__/src/greek.c.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/__/src/greek.c.s
 .PHONY : __/src/greek.c.s
 
 digit.o: digit.cpp.o
@@ -251,7 +251,7 @@ digit.o: digit.cpp.o
 
 # target to build an object file
 digit.cpp.o:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/digit.cpp.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/digit.cpp.o
 .PHONY : digit.cpp.o
 
 digit.i: digit.cpp.i
@@ -260,7 +260,7 @@ digit.i: digit.cpp.i
 
 # target to preprocess a source file
 digit.cpp.i:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/digit.cpp.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/digit.cpp.i
 .PHONY : digit.cpp.i
 
 digit.s: digit.cpp.s
@@ -269,7 +269,7 @@ digit.s: digit.cpp.s
 
 # target to generate assembly for a file
 digit.cpp.s:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/digit.cpp.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/digit.cpp.s
 .PHONY : digit.cpp.s
 
 feeder_ok.o: feeder_ok.cpp.o
@@ -278,7 +278,7 @@ feeder_ok.o: feeder_ok.cpp.o
 
 # target to build an object file
 feeder_ok.cpp.o:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/feeder_ok.cpp.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/feeder_ok.cpp.o
 .PHONY : feeder_ok.cpp.o
 
 feeder_ok.i: feeder_ok.cpp.i
@@ -287,7 +287,7 @@ feeder_ok.i: feeder_ok.cpp.i
 
 # target to preprocess a source file
 feeder_ok.cpp.i:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/feeder_ok.cpp.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/feeder_ok.cpp.i
 .PHONY : feeder_ok.cpp.i
 
 feeder_ok.s: feeder_ok.cpp.s
@@ -296,7 +296,7 @@ feeder_ok.s: feeder_ok.cpp.s
 
 # target to generate assembly for a file
 feeder_ok.cpp.s:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/feeder_ok.cpp.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/feeder_ok.cpp.s
 .PHONY : feeder_ok.cpp.s
 
 feeder_wrong.o: feeder_wrong.cpp.o
@@ -305,7 +305,7 @@ feeder_wrong.o: feeder_wrong.cpp.o
 
 # target to build an object file
 feeder_wrong.cpp.o:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/feeder_wrong.cpp.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/feeder_wrong.cpp.o
 .PHONY : feeder_wrong.cpp.o
 
 feeder_wrong.i: feeder_wrong.cpp.i
@@ -314,7 +314,7 @@ feeder_wrong.i: feeder_wrong.cpp.i
 
 # target to preprocess a source file
 feeder_wrong.cpp.i:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/feeder_wrong.cpp.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/feeder_wrong.cpp.i
 .PHONY : feeder_wrong.cpp.i
 
 feeder_wrong.s: feeder_wrong.cpp.s
@@ -323,7 +323,7 @@ feeder_wrong.s: feeder_wrong.cpp.s
 
 # target to generate assembly for a file
 feeder_wrong.cpp.s:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/feeder_wrong.cpp.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/feeder_wrong.cpp.s
 .PHONY : feeder_wrong.cpp.s
 
 main.o: main.cpp.o
@@ -332,9 +332,9 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/main.cpp.o
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/main.cpp.o
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/main.cpp.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/main.cpp.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/main.cpp.o
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -343,9 +343,9 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/main.cpp.i
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/main.cpp.i
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/main.cpp.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/main.cpp.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/main.cpp.i
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -354,9 +354,9 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/main.cpp.s
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/main.cpp.s
-	cd /home/dibydo/Desktop/IndTask/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/main.cpp.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_wrong_tests.dir/build.make test/CMakeFiles/feeder_wrong_tests.dir/main.cpp.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/feeder_ok_tests.dir/build.make test/CMakeFiles/feeder_ok_tests.dir/main.cpp.s
+	cd /home/dibydo/Desktop/bbb/build && $(MAKE) -f test/CMakeFiles/digit_tests.dir/build.make test/CMakeFiles/digit_tests.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -401,6 +401,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dibydo/Desktop/IndTask/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dibydo/Desktop/bbb/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

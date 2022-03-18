@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/dibydo/Desktop/IndTask/include/indTask/greek.h
+/home/dibydo/Desktop/bbb/include/indTask/greek.h
 
-/home/dibydo/Desktop/IndTask/src/greek.c
+/home/dibydo/Desktop/bbb/src/greek.c
 stdio.h
 -
 string.h
@@ -16,9 +16,9 @@ string.h
 stdlib.h
 -
 ../include/indTask/greek.h
-/home/dibydo/Desktop/IndTask/include/indTask/greek.h
+/home/dibydo/Desktop/bbb/include/indTask/greek.h
 
-/home/dibydo/Desktop/IndTask/src/main.c
+/home/dibydo/Desktop/bbb/src/main.c
 ../include/indTask/greek.h
-/home/dibydo/Desktop/IndTask/include/indTask/greek.h
+/home/dibydo/Desktop/bbb/include/indTask/greek.h
 

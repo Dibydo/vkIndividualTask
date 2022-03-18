@@ -49,7 +49,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
+					"fragment" : " "
 				},
 				{
 					"backtrace" : 2,
@@ -60,17 +60,17 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/dibydo/Desktop/IndTask/include"
+					"path" : "/home/dibydo/Desktop/bbb/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/dibydo/Desktop/IndTask/build/googletest-src/googletest/include"
+					"path" : "/home/dibydo/Desktop/bbb/build/googletest-src/googletest/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/dibydo/Desktop/IndTask/build/googletest-src/googletest"
+					"path" : "/home/dibydo/Desktop/bbb/build/googletest-src/googletest"
 				}
 			],
 			"language" : "C",
@@ -83,7 +83,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
+					"fragment" : " "
 				},
 				{
 					"backtrace" : 2,
@@ -94,17 +94,17 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/dibydo/Desktop/IndTask/include"
+					"path" : "/home/dibydo/Desktop/bbb/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/dibydo/Desktop/IndTask/build/googletest-src/googletest/include"
+					"path" : "/home/dibydo/Desktop/bbb/build/googletest-src/googletest/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/dibydo/Desktop/IndTask/build/googletest-src/googletest"
+					"path" : "/home/dibydo/Desktop/bbb/build/googletest-src/googletest"
 				}
 			],
 			"language" : "CXX",
@@ -132,20 +132,16 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
 				"fragment" : "-rdynamic",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "../googletest-build/googlemock/gtest/libgtest_maind.a",
+				"fragment" : "../googletest-build/googlemock/gtest/libgtest_main.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "../googletest-build/googlemock/gtest/libgtestd.a",
+				"fragment" : "../googletest-build/googlemock/gtest/libgtest.a",
 				"role" : "libraries"
 			},
 			{

@@ -92,7 +92,7 @@ if(ENABLE_CPPCHECK)
     list(APPEND CPPCHECK_CMAKE_ARGS
         "-DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}"
     )
-
+    include(ExternalProject)
     ExternalProject_Add(
         cppcheck
         GIT_REPOSITORY      https://github.com/danmar/cppcheck.git

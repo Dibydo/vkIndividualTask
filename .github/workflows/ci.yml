@@ -1,5 +1,5 @@
 name: "individual task ci"
-# TODO 
+# TODO
 on: push
 
 jobs:
@@ -63,7 +63,7 @@ jobs:
           which valgrind
 
       - name: INSTALL GTEST
-        run:  |
+        run: |
           git clone https://github.com/google/googletest
           pwd
           cd ./googletest
@@ -81,7 +81,7 @@ jobs:
           make
           ctest
       - name: run valgrind
-        run:
+        run: |
           mkdir -p build && cd build
           gcc -O0 -g ../src/*.c -o greekcomp
           valgrind --tool=memcheck --leak-check=full --leak-resolution=med ./greekcomp XXIX XXI VI IV CVV

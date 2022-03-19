@@ -1,0 +1,144 @@
+name: "individual task ci"
+# TODO
+on: push
+
+jobs:
+  checking:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: main dir
+        run: pwd
+
+      - name: gcc install
+        run: |
+          sudo apt-get update && sudo apt-get install -y gcc g++
+          which gcc
+
+      - name: cmake install
+        run: |
+          sudo apt-get update && sudo apt-get install -y cmake
+          which cmake
+
+      - name: cpplint install
+        run: |
+          sudo apt-get update && sudo pip install cpplint
+          which cpplint
+
+      - name: valgrind install
+        run: |
+          sudo apt-get update && sudo apt-get install -y valgrind
+          which valgrind
+      
+      - name: INSTALL CLANG-FORMAT
+        run: |
+          sudo apt-get update && sudo apt-get install -y clang-format
+          which clang
+
+      - name: CLANG-FORMATTING
+        run: |
+          mkdir -p build && cd build
+          sudo cmake -DENABLE_CLANG_FORMAT=ON ..
+          sudo make
+          sudo make clang-format
+          cd ../
+
+      - name: INSTALL CLANG-TIDY
+        run: |
+          sudo apt-get update && sudo apt-get install -y clang-tidy
+          which clang-tidy
+
+      - name: CLANG-TIDY CHECK
+        run: |
+          mkdir -p build && cd build
+      - name: INSTALL CLANG-FORMAT
+        run: |
+          sudo apt-get update && sudo apt-get install -y clang-format
+          which clang
+      - name: CLANG-FORMATTING
+        run: |
+          mkdir -p build && cd build
+          sudo cmake -DENABLE_CLANG_FORMAT=ON ..
+          sudo make
+          sudo make clang-format
+          cd ../
+      - name: INSTALL CLANG-TIDY
+        run: |
+          sudo apt-get update && sudo apt-get install -y clang-tidy
+          which clang-tidy
+      - name: INSTALL CPPLINT
+        run: |
+          sudo apt-get update && sudo pip install cpplint
+          which cpplint
+      - name: CPP CHECK
+        run: |
+          mkdir -p build && cd build
+          sudo cmake -DENABLE_CPPCHECK=ON ..
+          sudo make
+          sudo make check
+          cd ../
+
+  testing:
+    runs-on: ubuntu-latest
+    needs: [checking]
+    steps:
+      - uses: actions/checkout@v2
+      - name: WORKING DIRECTORY
+        run: pwd
+
+      - name: INSTALL GCC
+        run: |
+          sudo apt-get update && sudo apt-get install -y gcc g++
+          which gcc
+
+      - name: INSTALL CMAKE
+        run: |
+          sudo apt-get update && sudo apt-get install -y cmake
+          which cmake
+
+      - name: INSTALL LCOV
+        run: |
+          sudo apt-get update && sudo apt-get install -y lcov
+          which lcov
+
+      - name: INSTALL PIP
+        run: |
+          sudo apt-get update && sudo apt-get install -y python3-pip
+          which python3
+          which pip
+
+      - name: INSTALL VALGRIND
+        run: |
+          sudo apt-get update && sudo apt-get install -y valgrind
+          which valgrind
+
+      - name: INSTALL GTEST
+        run: |
+          git clone https://github.com/google/googletest
+          pwd
+          cd ./googletest
+          pwd
+          mkdir -p build && cd build
+          sudo cmake ..
+          sudo make
+          sudo make install
+          cd ../../
+          pwd
+      - name: run gtest
+        run: |
+          mkdir -p build && cd build
+          cmake ..
+          make
+          ctest
+      - name: run valgrind
+        run: |
+          mkdir -p build && cd build
+          gcc -O0 -g ../src/*.c -o greekcomp
+          valgrind --tool=memcheck --leak-check=full --leak-resolution=med ./greekcomp XXIX XXI VI IV CVV
+          valgrind --tool=memcheck --leak-check=full --leak-resolution=med ./greekcomp ../test/test.txt
+      - name: ADDRESS SANITIZER
+        run: |
+          mkdir -p build && cd build
+          sudo cmake -DBUILD_TESTS=ON -DENABLE_ASAN=ON -DENABLE_USAN=OFF -DENABLE_TSAN=OFF ..
+          sudo make
+          sudo ./greekcomp

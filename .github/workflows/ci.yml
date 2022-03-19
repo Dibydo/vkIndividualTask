@@ -136,3 +136,9 @@ jobs:
           gcc -O0 -g ../src/*.c -o greekcomp
           valgrind --tool=memcheck --leak-check=full --leak-resolution=med ./greekcomp XXIX XXI VI IV CVV
           valgrind --tool=memcheck --leak-check=full --leak-resolution=med ./greekcomp ../test/test.txt
+      - name: ADDRESS SANITIZER
+        run: |
+          mkdir -p build && cd build
+          sudo cmake -DBUILD_TESTS=ON -DENABLE_ASAN=ON -DENABLE_USAN=OFF -DENABLE_TSAN=OFF ..
+          sudo make
+          sudo ./greekcomp

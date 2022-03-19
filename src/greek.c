@@ -6,64 +6,55 @@
 int digit(char roman_digit)
 {
     int value;
-    if (roman_digit == 'I')
+    switch (roman_digit)
     {
+    case 'I':
         value = 1;
-    }
-    else if (roman_digit == 'V')
-    {
+        break;
+    case 'V':
         value = 5;
-    }
-    else if (roman_digit == 'X')
-    {
+        break;
+    case 'X':
         value = 10;
-    }
-    else if (roman_digit == 'L')
-    {
+        break;
+    case 'L':
         value = 50;
-    }
-    else if (roman_digit == 'C')
-    {
+        break;
+    case 'C':
         value = 100;
-    }
-    else if (roman_digit == 'D')
-    {
+        break;
+    case 'D':
         value = 500;
-    }
-    else if (roman_digit == 'M')
-    {
+        break;
+    case 'M':
         value = 1000;
-    }
-    else if (roman_digit == '\0')
-    {
+        break;
+    case '\0':
         value = 0;
-    }
-    else
-    {
-        value = -1;
+        break;
+    case '\n':
+        break;
+    default:
+        value = ERROR_CODE;
+        break;
     }
     return value;
 }
 
 void number_loop(char *romanNumber, int *number)
 {
+    //printf("Пришло в number_loop: %s", romanNumber);
     int i = 0;
     if (romanNumber[i] == '\0') {
-        *number = -1;
+        *number = ERROR_CODE;
         return;
-    }
-    if (strlen(romanNumber) == 2) {
-        if (digit(romanNumber[i]) < digit(romanNumber[i + 1])) {
-            *number = -1;
-            return;
-        }
     }
     while (romanNumber[i])
     {
         if (digit(romanNumber[i]) < 0)
         {
             //printf("Invalid digit : %c", romanNumber[i]);
-            *number = -1;
+            *number = ERROR_CODE;
             break;
         }
         if ((strlen(romanNumber) - i) > 2)
@@ -71,15 +62,15 @@ void number_loop(char *romanNumber, int *number)
             if (digit(romanNumber[i]) < digit(romanNumber[i + 2]))
             {
                 //printf("Invalid number");
-                *number = -1;
+                *number = ERROR_CODE;
                 break;
             }
         }
         if (digit(romanNumber[i]) >= digit(romanNumber[i + 1]))
-            *number = *number + digit(romanNumber[i]);
+            *number += digit(romanNumber[i]);
         else
         {
-            *number = *number + (digit(romanNumber[i + 1]) - digit(romanNumber[i]));
+            *number += (digit(romanNumber[i + 1]) - digit(romanNumber[i]));
             i++;
         }
         i++;
@@ -87,9 +78,8 @@ void number_loop(char *romanNumber, int *number)
 }
 
 int number_feeder(char *romanNumber)
-{
+{   
     int a = 0;
     number_loop(romanNumber, &a);
-    printf("%d", a);
     return a; 
 }

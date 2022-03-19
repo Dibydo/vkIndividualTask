@@ -6,7 +6,7 @@ extern "C"
     #include "../include/indTask/greek.h"
 }
 
-char test_cases[][MAX_STRING_LENGTH] = {"X", "XVII", "CVI", "DIV", "DCIII", "0"};
+char test_cases[][MAX_STRING_LENGTH] = {"X", "XVII", "CVI", "DIV", "DCIII", "IV", "IX", "XXIX"};
 
 TEST(greek_test, feeder_ok)
 {
@@ -16,4 +16,7 @@ TEST(greek_test, feeder_ok)
     ASSERT_EQ(number_feeder(test_cases[i++]), 106);
     ASSERT_EQ(number_feeder(test_cases[i++]), 504);
     ASSERT_EQ(number_feeder(test_cases[i++]), 603);
+    ASSERT_EQ(number_feeder(test_cases[i++]), 4);
+    ASSERT_EQ(number_feeder(test_cases[i++]), 9);
+    ASSERT_EQ(number_feeder(test_cases[i++]), 29);
 }

@@ -61,7 +61,6 @@ void number_loop(char *romanNumber, int *number)
         {
             if (digit(romanNumber[i]) < digit(romanNumber[i + 2]))
             {
-                //printf("Invalid number");
                 *number = ERROR_CODE;
                 break;
             }

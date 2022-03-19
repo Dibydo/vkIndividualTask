@@ -1,3 +1,4 @@
+# Copyright 2022 by Yaroslav Zhovtyak
 cmake_minimum_required(VERSION 3.1)
 
 project(greek)

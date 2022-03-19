@@ -1,3 +1,4 @@
+// Copyright 2022 by Yaroslav Zhovtyak
 #include "../include/indTask/greek.h"
 #include <stdio.h>
 #include <stdlib.h>

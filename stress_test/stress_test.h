@@ -28,4 +28,4 @@ void save_stat(time_stat stat, size_t result, const char* filename);
 bool write_sequence_output_file(const int* sequence, size_t size,
                                 size_t R_window, FILE* stream);
 
-#endif
+#endif  // STRESS_TEST_STRESS_TEST_H_

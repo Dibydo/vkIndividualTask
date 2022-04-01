@@ -15,4 +15,4 @@ typedef struct ECG {
 bool create_ECG(ECG** ecg_p, FILE* stream);
 void delete_ecg(ECG* ecg);
 
-#endif
+#endif  // LIB_ECG_H_

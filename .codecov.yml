@@ -1,6 +1,7 @@
 # Copyright 2022 by Yaroslav Zhovtyak
 codecov:
   require_ci_to_pass: yes
+  token: dde559e3-3b78-48bb-bd38-c9e6aa36bd8d
 
 coverage:
   precision: 2

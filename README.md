@@ -1,6 +1,6 @@
 # vkIndividualTask
 [![.github/workflows/ci.yml](https://github.com/Dibydo/vkIndividualTask/actions/workflows/ci.yml/badge.svg?branch=Homework2)](https://github.com/Dibydo/vkIndividualTask/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/Dibydo/vkIndividualTask/branch/Homework/graph/badge.svg?token=0jH3djOx42)](https://codecov.io/gh/Dibydo/vkIndividualTask)
+[![codecov](https://codecov.io/gh/Dibydo/vkIndividualTask/branch/main/graph/badge.svg?token=RWB1O58P03)](https://codecov.io/gh/Dibydo/vkIndividualTask)
 
 **Жовтяк Ярослав WEB-13**\
 **Преподаватель: Алексей Халайджи**
